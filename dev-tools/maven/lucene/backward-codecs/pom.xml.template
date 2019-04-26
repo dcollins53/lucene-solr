@@ -29,7 +29,7 @@
   <groupId>org.apache.lucene</groupId>
   <artifactId>lucene-backward-codecs</artifactId>
   <packaging>jar</packaging>
-  <name>Lucene Memory</name>
+  <name>Lucene Backwards Codecs</name>
   <description>
     Codecs for older versions of Lucene.
   </description>
