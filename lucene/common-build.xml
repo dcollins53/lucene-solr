@@ -681,7 +681,7 @@
       <artifact:pom id="maven.project" file="@{pom.xml}">
         <remoteRepository id="${maven.repository.id}" url="${ivy_bootstrap_url1}" />
       </artifact:pom>
-      <artifact:deploy file="@{jar.file}">
+      <artifact:deploy file="@{jar.file}" uniqueVersion="false">
         <artifact-attachments/>
         <remoteRepository id="${m2.repository.id}" url="${m2.repository.url}">
           <credentials/>
